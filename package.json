@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bpmn-js": "^17.8.1",
+    "mermaid": "^10.9.1"
+  }
+}

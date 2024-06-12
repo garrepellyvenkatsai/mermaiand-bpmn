@@ -1,0 +1,71 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sample-btn,
+.export-btn {
+  background-color:#7c3aed;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.sample-btn:hover,
+.export-btn:hover {
+  background-color: #084062;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  margin: auto;
+}
+
+.editorContainer,
+.diagramContainer {
+  width: 100%;
+  height: 80vh;
+  border: 3px solid #084062;
+  overflow: auto;
+  padding: 10px;
+  border-radius:10px;
+}
+
+#inputText {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  border-radius:10px;
+  border: 3px solid #084062;
+}
+
+.export-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
